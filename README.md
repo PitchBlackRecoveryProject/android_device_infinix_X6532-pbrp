@@ -1,4 +1,4 @@
-# Twrp Tree For Infinix Smart 9 (X6532)
+# PBRP Tree For Infinix Smart 9 (X6532)
 
 # Checks
 Blocking checks
@@ -37,7 +37,7 @@ Minor checks
 - [✔] Fastbootd
 
 # Clone (example)
-    git clone https://github.com/naden01/infinix_X6532.git -b android-12.1 device/infinix/X6532 
+    git clone https://github.com/PitchBlackRecoveryProject/android_device_infinix_X6532-pbrp.git -b android-12.1 device/infinix/X6532 
 
 # Build
-    export ALLOW_MISSING_DEPENDENCIES=true; . build/envsetup.sh; lunch twrp_X6532-eng; mka vendorbootimage
+    export ALLOW_MISSING_DEPENDENCIES=true; . build/envsetup.sh; lunch pb_X6532-eng; m pbrp
